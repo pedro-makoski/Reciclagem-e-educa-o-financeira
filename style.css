@@ -293,6 +293,7 @@ h2{
 h1#branco{
     padding-top: 50px;
     color: white;
+    margin: 0;
 }
 
 #importante-text{
@@ -309,4 +310,15 @@ h1#branco{
     height: 95px;
     align-items:center;
     text-align: center;
+}
+
+#dica-importante{
+    color: white;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+footer{
+    background-color: gray;
+    height: 200px;
 }
