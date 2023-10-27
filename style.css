@@ -156,6 +156,7 @@ h1#verde{
         border: 3px black solid;
         width: 90%;
         height: auto;
+        padding-bottom: 30px;
 
 
     }
@@ -321,7 +322,8 @@ h1#branco{
 
 footer{
     background-color: gray;
-    height: 200px;
+    height: auto;
+    width: 100%;
     margin: 0;
 }
 
