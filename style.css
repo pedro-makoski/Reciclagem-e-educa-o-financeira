@@ -48,6 +48,7 @@ p.header-text{
     padding-left: 10px;
     align-items: center;
     overflow-y: auto;
+    justify-content: center;
 }
 
 .item-ao-lado-de-imagem{
@@ -126,6 +127,7 @@ h1#verde{
         padding-top: 50px;
         align-items: center;
         overflow-y: auto;
+        justify-content: left;
     }
 
     .item-ao-lado-de-imagem{
@@ -181,6 +183,9 @@ h1#verde{
         width: 90%;
     }
 
+    #preco-lixo{
+        align-items: left;
+    }
 
 }
 
@@ -193,10 +198,11 @@ h1#verde{
 #preco-lixo{
     background-color: lightcyan;
     align-items: center;
+    align-items: center;
 }
 
 .imagem-demonstracao{
-    width: 200px;
+    width: 300px;
     height: auto;
 
 }
@@ -204,7 +210,7 @@ h1#verde{
 #demonstracao{
     display: flex;
     flex-direction: row;
-    min-width: 400px;
+    min-width: 500px;
     padding-left: 50px;
     border: 2px solid black;
     border-radius: 10px;
@@ -259,6 +265,7 @@ h2{
     height: auto;
     border: 2px solid black;
     border-radius: 10px;
+    background-color: w;
 }
 
 #exemplos{
@@ -266,6 +273,8 @@ h2{
     display: flex;
     flex-direction: row;
     overflow-y: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #padding-arround{
@@ -281,10 +290,10 @@ h2{
 }
 
 #importante-pizza{
-    background-image: url("https://www.reciclasampa.com.br/imgs/conteudos/21_caixa_de_pizza_padrao.jpg");
+    background-image: url("_cdfa13dd-e03a-4190-843c-51894c3e3005.jpeg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0 100px;
+    background-position: 0 60%;
     width: 100%;
     margin: 0;
     height: 95px;
@@ -303,7 +312,7 @@ h1#branco{
 }
 
 #importante-oleo{
-    background-image: url("https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2019/02/06/oleo-de-cozinha-1.jpg");
+    background-image: url("_128d4629-1ea8-4bd1-9987-8102dd385aca.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 100px;
@@ -330,9 +339,17 @@ footer{
 #footer-text{
     word-break: break-all;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-right: 10px;
-    padding-left: 10px;
     margin: 0;
     color: white;
     font-size: 3vw;
+    padding: 10px;
+}
+
+img#corte{
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+h1{
+    padding: 10px;
 }
