@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+main{
+    background-color: lightsalmon;
+}
+
 header{
     position: relative;
     color: white;
@@ -200,7 +204,6 @@ h1#verde{
     }
 
     #preco-prod{
-        align-items: left;  
         justify-content: left;
         padding-top: 50px;
         padding-bottom: 35px;
@@ -228,10 +231,22 @@ h1#verde{
 
 }
 
+
+
 #demonstracao{
     display: flex;
     flex-direction: row;
-    min-width: 500px;
+    min-width: 600px;
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+#demonstracao3{
+    display: flex;
+    flex-direction: row;
+    min-width: 800px;
     padding-left: 50px;
     border: 2px solid black;
     border-radius: 50px;
@@ -260,6 +275,8 @@ h1#verde{
     align-items: center;
     justify-content: center;
 }
+
+
 
 p{
     word-break: break-all;
@@ -308,6 +325,9 @@ h2{
 
 #informacoes-sobre-a-coleta{
     background-color: lightblue;
+    border: 2px inset black;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 #importante-pizza{
@@ -407,12 +427,35 @@ h1{
 }
 
 
-
-h1{
-    padding-left: 20px;
-}
-
-p{
+#h1local{
     padding-left: 20px;
     padding-bottom: 10px;
 }
+
+
+#span-local{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#padding-arround2{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.whiteimage{
+    background-color: white;
+}
+
+#paddin-botup{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fundobranco{
+    background-color: white;
+}
+
+
+
