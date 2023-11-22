@@ -167,6 +167,10 @@ h1#verde{
         justify-content: left;
     }
 
+    .deslizavel{
+   	justify-content: left;
+    }
+
     
 }
 
@@ -175,7 +179,7 @@ h1#verde{
     .deslizavel{
         overflow-y: auto;
         display: flex;
-        padding: 25	px;
+        padding: 25px;
         padding-left: 20px;
         flex-direction: row;
     }
