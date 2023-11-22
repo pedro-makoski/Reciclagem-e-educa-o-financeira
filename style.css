@@ -52,12 +52,24 @@ p.header-text{
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 35px;
-    align-items: center;
     padding-left: 10px;
     align-items: center;
     overflow-y: auto;
     justify-content: center;
 }
+
+.branco3{
+    display: flex;
+    width: 95%;
+    height: auto;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    overflow-y: auto;
+    justify-content: center;
+}
+
 
 .item-ao-lado-de-imagem{
     padding-left: 10px;
@@ -74,15 +86,13 @@ h1#texcen{
 
 p#text-branco{
     font-size:2vw;
-    word-break: break-all;
-    word-wrap: break-word;
+    word-break: break-word;
     padding-right: 10px;
 }
 
 p#text-wheat{
     font-size:2vw;
-    word-break: break-all;
-    word-wrap: break-word;
+    word-break: break-word;
 }
 
 
@@ -98,26 +108,22 @@ img.image-do-lado-do-texto{
 
 h1#vermelho{
     color: red;
-    word-break: break-all;
-    word-wrap: break-word;
+    word-break: break-word;
 }
 
 h1#azul{
     color:blue;
-    word-break: break-all;
-    word-wrap: break-word;
+    word-break: break-word;
 }
 
 h1#amarelo{
     color:rgb(200, 200, 0);
-    word-break: break-all;
-    word-wrap: break-word;
+    word-break: break-word;
 }
 
 h1#verde{
     color:green;
-    word-break: break-all;
-    word-wrap: break-word;
+    word-break: break-word;
 }
 
 #preco-prod{
@@ -138,12 +144,29 @@ h1#verde{
     width: 540px;
 }
 
+#grafico-img2{
+    border-radius: 50px;
+    border: 2px inset black;
+    width: 260px;
+}
+
+
+
 .deslizavel{
     overflow-y: auto;
     display: flex;
     padding: 50px;
     padding-left: 100px;
     flex-direction: row;
+}
+
+
+@media (max-width:1146px){
+    .branco3{
+        justify-content: left;
+    }
+
+    
 }
 
 @media (max-width: 768px) {
@@ -173,7 +196,6 @@ h1#verde{
         height: auto;
         flex-direction: column;
         padding-top: 50px;
-        align-items: center;
         margin: 0;
     }
     
@@ -183,11 +205,18 @@ h1#verde{
         height: auto;
         flex-direction: row;
         padding-top: 50px;
-        align-items: center;
         overflow-y: auto;
         justify-content: left;
     }
 
+    .branco3{
+        display: flex;
+        width: 95%;
+        height: auto;
+        flex-direction: row;
+        padding-top: 50px;
+        overflow-y: auto;
+    }
 
     .item-ao-lado-de-imagem{
         bottom:50px;
@@ -199,14 +228,12 @@ h1#verde{
     
 
     p#text-branco{
-        word-break: break-all;
-        word-wrap: break-word;
+        word-break: break-word;
         font-size:5vw;
     }
 
     p#text-wheat{
-        word-break: break-all;
-        word-wrap: break-word;
+        word-break: break-word;
         font-size:5vw;
 
     }
@@ -320,14 +347,14 @@ h1#verde{
 
 
 p{
-    word-break: break-all;
+    word-break: break-word;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-right: 10px;
     padding-left: 10px;
 }
 
 h1{
-    word-break: break-all;
+    word-break: break-word;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-right: 10px;
     padding-left: 10px;
@@ -335,7 +362,7 @@ h1{
 }
 
 h2{
-    word-break: break-all;
+    word-break: break-word;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-right: 10px;
     padding-left: 10px; 
@@ -382,6 +409,7 @@ h2{
     height: 95px;
     align-items:center;
     text-align: center;
+
 }
 
 h1#branco{
@@ -392,6 +420,7 @@ h1#branco{
 
 #importante-text{
     background-color: lightseagreen;
+    text-transform: uppercase;
 }
 
 #importante-oleo{
@@ -409,7 +438,7 @@ h1#branco{
 #dica-importante{
     color: white;
     font-weight: bold;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 footer{
@@ -420,7 +449,7 @@ footer{
 }
 
 #footer-text{
-    word-break: break-all;
+    word-break: break-word;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     color: white;
@@ -492,7 +521,3 @@ h1{
 .fundobranco{
     background-color: white;
 }
-
-
-
-
